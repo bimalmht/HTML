@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Basic HTML Table</legend>
+            <table border="4">
+            <!--tr = table row-->
+            <tr>
+                <!--th = table header-->
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Hobbies</th>
+            </tr>
+            <tr>
+                <!--td = table data-->
+                <td>Bimal Mahato</td>
+                <td>bmtmht@gmail.com</td>
+                <td>Male</td>
+                <td>Playing</td>
+            </tr>
+            <tr>
+                <td>Bimal Mahato</td>
+                <td>bmtmht@gmail.com</td>
+                <td>Male</td>
+                <td>Playing</td>
+            </tr>
+            <tr>
+                <td>Bimal Mahato</td>
+                <td>bmtmht@gmail.com</td>
+                <td>Male</td>
+                <td>Playing</td>
+            </tr>
+            </table>
+    </fieldset>
+    <fieldset>
+        <legend>Tricky HTML Table</legend>
+    <table border="1">
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Average</th>
+            <th rowspan="2">Red Eyes</th>
+        </tr>
+        <tr>
+            <th>height</th>
+            <th>weight</th>
+        </tr>
+        <tr>
+            <th>Males</th>
+            <td>1.9</td>
+            <td>0.03</td>
+            <td>40%</td>
+        </tr>
+        <tr>
+            <th>Females</th>
+            <td>2.0</td>
+            <td>0.07</td>
+            <td>60%</td>
+        </tr>
+    </table>
+    </fieldset>
+    <fieldset>
+        <legend>Advance HTML Table</legend>
+        <table border="1">
+            <tr>
+                <th>Level 1</th>
+                <th>Level 2</th>
+                <th>Level 3</th>
+                <th>Info</th>
+                <th>Name</th>
+            </tr>
+            <tr>
+                <td rowspan="6">System</td>
+                <td rowspan="4">System Apps</td>
+                <td rowspan="3">System Env</td>
+                <td>App Test</td>
+                <td>Foo</td>
+            </tr>
+            <tr>
+                <td>App Memory</td>
+                <td>foo</td>
+            </tr>
+            <tr>
+                <td>App Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td>SystemEnv2</td>
+                <td>App Test</td>
+                <td>bar</td>
+            </tr>
+            <tr>
+                <td rowspan="2">System Memory</td>
+                <td rowspan="2">Memory Test</td>
+                <td>Memory Func</td>
+                <td>Foo</td>
+            </tr>
+
+            <tr>
+                <td>Apps Test</td>
+                <td>Foo</td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
